@@ -1,0 +1,92 @@
+.header_style_wrapper .top_bar
+{
+	border-bottom: 1px solid #e1e1e1;
+}
+
+#wrapper
+{
+	padding-top: 106px;
+}
+
+#logo_wrapper
+{
+	float: left;
+	overflow: visible;
+	width: 100%;
+	padding: 35px 0 30px 0;
+	    display: table;
+}
+
+.logo_container
+{
+	display: block;
+	float: left;
+	width: auto;
+	height: auto;
+	margin-right: 15px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#menu_wrapper
+{
+	display: block;
+	width: auto;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#nav_wrapper
+{
+	width: auto;
+	height: auto;
+	border: 0;
+	text-align: left;
+	float: right;
+}
+
+#menu_wrapper .nav ul li > a, #menu_wrapper div .nav li > a
+{
+	padding: 8px 15px 10px 15px;
+	transition: none;
+}
+
+#logo_right_button
+{
+	float: right;
+	padding: 8px 0 0 0;
+}
+
+.top_bar.scroll #logo_wrapper
+{
+	height: auto;
+	padding: 15px 0 10px 0;
+}
+
+.top_bar.scroll #logo_wrapper #custom_logo img
+{
+	width: auto;
+	max-height: 30px;
+}
+
+#post_info_bar
+{
+	height: 65px;
+	top: -65px;
+}
+
+#post_info_bar .post_info .post_info_label
+{
+	margin-top: 10px;
+}
+
+#post_info_bar .post_info, #post_info_bar .post_info_thumb
+{
+	margin-top: 4px;
+}
+
+.top_bar.scroll .logo_container
+{
+	float: none;
+}

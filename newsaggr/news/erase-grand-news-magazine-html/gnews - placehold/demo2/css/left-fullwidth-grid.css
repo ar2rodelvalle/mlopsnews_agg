@@ -1,0 +1,153 @@
+/**
+*
+* Widescreen Devices
+*
+**/
+@media only screen and (min-width: 1100px) {
+	body.single-post #page_caption.hasbg .page_title_wrapper .post_info_cat
+	{
+		float: left;
+	}
+	
+	.nav_wrapper_inner
+	{
+		max-width: 1425px;
+		width: 100%;
+		box-sizing: border-box;
+		margin: auto;
+		padding: 0 60px;
+		background: transparent;
+	}
+	
+	.nav_wrapper_inner
+	{
+		padding: 0 45px;
+	}
+	
+	#menu_wrapper .nav ul li.megamenu > ul, #menu_wrapper div .nav li.megamenu > ul, #menu_wrapper .nav ul li.catmenu > .catmenu_wrapper, #menu_wrapper div .nav li.catmenu > .catmenu_wrapper, #menu_wrapper .nav ul li.catmenu2 > .catmenu_wrapper, #menu_wrapper div .nav li.catmenu2 > .catmenu_wrapper
+	{
+		width: calc(100% - 120px);
+	}
+}
+
+/* 
+#Tablet (Portrait)
+================================================== 
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+	.logo_container
+	{
+		margin-top: 0;
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	
+	.logo_align
+	{
+		width: 100%;
+		display: block;
+	}
+	
+	.ppb_ads.pp_ads_global_before_menu
+	{
+		float: none;
+		margin-top: 20px;
+	}
+	
+	#logo_right_button a
+	{
+		padding: 0;
+	}
+	
+	#logo_right_button
+	{
+		float: left;
+	}
+	
+	#mobile_nav_icon
+	{
+		top: 2px;
+	}
+	
+	.nav_wrapper_inner
+	{
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0 30px 0 30px;
+	}
+	
+	#menu_wrapper #nav_wrapper
+	{
+		padding: 15px 0 15px 0;
+	}
+}
+
+/*  
+#Mobile (Portrait)
+================================================== 
+*/
+
+@media only screen and (max-width: 767px) {
+	.logo_container
+	{
+		margin-top: 0;
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	
+	.logo_align
+	{
+		width: 100%;
+		display: block;
+	}
+	
+	.ppb_ads.pp_ads_global_before_menu
+	{
+		float: none;
+		margin-top: 20px;
+	}
+	
+	#logo_right_button a
+	{
+		padding: 0;
+	}
+	
+	#logo_right_button
+	{
+		float: left;
+	}
+	
+	#mobile_nav_icon
+	{
+		top: 0;
+		margin-top: 2px;
+	}
+	
+	#search_icon, #page_share
+	{
+		margin-top: 2px;
+	}
+	
+	.nav_wrapper_inner
+	{
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0;
+	}
+	
+	.ppb_blog_grid_with_posts .one_third.last
+	{
+		height: auto;
+		overflow-y: visible;
+		margin-top: 30px;
+	}
+	
+	.ppb_blog_grid_with_posts .one_third.last h5
+	{
+		font-size: 20px;
+		line-height: 1.2;
+	}
+}

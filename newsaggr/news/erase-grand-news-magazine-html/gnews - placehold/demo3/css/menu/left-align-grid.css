@@ -1,0 +1,95 @@
+/**
+*
+* Widescreen Devices
+*
+**/
+@media only screen and (min-width: 1100px) {
+	#menu_wrapper .nav ul li.catmenu > .catmenu_wrapper, #menu_wrapper div .nav li.catmenu > .catmenu_wrapper, #menu_wrapper .nav ul li.catmenu2 > .catmenu_wrapper, #menu_wrapper div .nav li.catmenu2 > .catmenu_wrapper
+	{
+		width: 100%;
+	}
+}
+
+/* 
+#Tablet (Portrait)
+================================================== 
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+	#logo_wrapper
+	{
+		width: 100%;
+		text-align: center;
+	}
+	
+	.logo_container, .logo_align, .logo_wrapper
+	{
+		margin: 0;
+		float: none;
+		width: 100%;
+		display: block;
+	}
+	
+	.top_bar.scroll .logo_container
+	{
+		display: none !important;
+	}
+	
+	.top_bar.scroll #logo_wrapper
+	{
+		padding: 15px 0 15px 0;
+	}
+	
+	.top_bar.scroll #logo_right_button
+	{
+		float: none;
+		padding: 0;
+	}
+	
+	#menu_wrapper #nav_wrapper
+	{
+		padding: 0;
+	}
+}
+
+/*  
+#Mobile (Portrait)
+================================================== 
+*/
+
+@media only screen and (max-width: 767px) {
+	#logo_wrapper
+	{
+		width: 100%;
+		text-align: center;
+	}
+	
+	.logo_container, .logo_align, .logo_wrapper
+	{
+		margin: 0;
+		float: none;
+		width: 100%;
+		display: block;
+	}
+	
+	.top_bar.scroll .logo_container
+	{
+		display: none !important;
+	}
+	
+	.top_bar.scroll #logo_wrapper
+	{
+		padding: 15px 0 15px 0;
+	}
+	
+	.top_bar.scroll #logo_right_button
+	{
+		float: none;
+		padding: 0;
+	}
+	
+	#nav_wrapper
+	{
+		display: none;
+	}
+}
